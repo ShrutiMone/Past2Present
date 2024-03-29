@@ -1,0 +1,32 @@
+.container{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 40px;
+    word-wrap: break-word; /* Wrap text if it exceeds its container */
+    max-width: 50%; /* Allow text to take up to 50% of viewport width */
+    color: white;
+}
+
+.link{
+    font-size: 20px;
+    text-decoration: none;
+    color: darkgray;
+}
+
+.link:hover{
+    color: aliceblue;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
